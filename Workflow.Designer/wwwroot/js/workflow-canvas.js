@@ -58,6 +58,9 @@ class WorkflowCanvas {
         // Store display size
         this.displayWidth = rect2.width;
         this.displayHeight = rect2.height;
+
+        console.log(`Canvas element size: ${this.canvas.style.width} x ${this.canvas.style.height}`);
+        console.log(`Rendering context size: ${this.canvas.width} x ${this.canvas.height}`);
     }
 
     setupResizeObserver() {
@@ -226,17 +229,22 @@ class WorkflowCanvas {
         }
     }
 
+    // #BUG001
+    // RMB click context menu not appearing at cursor event site location.
     onContextMenu(e) {
         e.preventDefault();
-        const rect = this.canvas.getBoundingClientRect();
+        const rect = this.container.getBoundingClientRect();    // HxW from rect correspond to Canvas HxW
         const screenX = e.clientX - rect.left;
-        const screenY = e.clientY - rect.top;
+        const screenY = e.clientY - rect.top;   // Adjust canvas position based on canvas offset
         const worldPos = this.screenToWorld(screenX, screenY);
-
+        console.log(`Canvas bounding rect: left=${rect.left}, top=${rect.top}, width=${rect.width}, height=${rect.height}`);
+        console.log(`Canvas element size: ${this.canvas.style.width} x ${this.canvas.style.height}`);
+        console.log(`Rendering context size: ${this.canvas.width} x ${this.canvas.height}`);
         const activity = this.getActivityAt(worldPos.x, worldPos.y);
         if (activity) {
             this.selectActivity(activity);
-            this.showContextMenu(e.clientX, e.clientY, activity);
+            // FIX [BUG001]: e.client(x/y) not accounting for canvas offset. Use Screen(X,Y) instead.
+            this.showContextMenu(screenX, screenY, activity);
         }
     }
 
