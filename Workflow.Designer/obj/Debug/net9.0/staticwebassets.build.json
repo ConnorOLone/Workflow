@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+ixTPBfS4k17bJNB6biWia6QFmVtGtenpvG+JFoB06M=",
+  "Hash": "dIifKdN6X1cj7CimnWilxT2ynbzvfsVZych5aogAI+4=",
   "Source": "Workflow.Designer",
   "BasePath": "_content/Workflow.Designer",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/22oc1ihm1b-efm0du7frm.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/property-editors#[.{fingerprint=efm0du7frm}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/property-editors.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q422ajozt2",
+      "Integrity": "ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/property-editors.js"
+    },
     {
       "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz",
       "SourceId": "Workflow.Designer",
@@ -59,12 +80,33 @@
       "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js"
     },
     {
-      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/9trgl3eelg-3hbrtkgof9.gz",
       "SourceId": "Workflow.Designer",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Workflow.Designer",
-      "RelativePath": "index#[.{fingerprint=5ygjq1d9kv}]?.html.gz",
+      "RelativePath": "js/expression-builder#[.{fingerprint=3hbrtkgof9}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/expression-builder.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8fm8a7z2sl",
+      "Integrity": "fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/expression-builder.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-1md0frwc70.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "index#[.{fingerprint=1md0frwc70}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,19 +115,19 @@
       "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "r45sy6x74l",
-      "Integrity": "+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=",
+      "Fingerprint": "upaga7n4l7",
+      "Integrity": "QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html"
     },
     {
-      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-83fstzrphz.gz",
       "SourceId": "Workflow.Designer",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Workflow.Designer",
-      "RelativePath": "css/designer#[.{fingerprint=64inkqkdo5}]?.css.gz",
+      "RelativePath": "css/designer#[.{fingerprint=83fstzrphz}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -94,19 +136,19 @@
       "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t8cw4r6wwk",
-      "Integrity": "/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=",
+      "Fingerprint": "edwyxbvnmk",
+      "Integrity": "YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css"
     },
     {
-      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-mdbxxt6yvt.gz",
       "SourceId": "Workflow.Designer",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Workflow.Designer",
-      "RelativePath": "js/designer#[.{fingerprint=21x9moz9ty}]?.js.gz",
+      "RelativePath": "js/designer#[.{fingerprint=mdbxxt6yvt}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +157,8 @@
       "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "v60kkwwa5x",
-      "Integrity": "CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=",
+      "Fingerprint": "p3628fvpui",
+      "Integrity": "m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js"
@@ -136,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "64inkqkdo5",
-      "Integrity": "dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=",
+      "Fingerprint": "83fstzrphz",
+      "Integrity": "nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/designer.css"
@@ -157,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ygjq1d9kv",
-      "Integrity": "cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=",
+      "Fingerprint": "1md0frwc70",
+      "Integrity": "6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
@@ -178,11 +220,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "21x9moz9ty",
-      "Integrity": "drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=",
+      "Fingerprint": "mdbxxt6yvt",
+      "Integrity": "JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/designer.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/expression-builder.js",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/expression-builder#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3hbrtkgof9",
+      "Integrity": "KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/expression-builder.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/property-editors.js",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/property-editors#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "efm0du7frm",
+      "Integrity": "dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/property-editors.js"
     },
     {
       "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
@@ -229,13 +313,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/designer.64inkqkdo5.css",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Route": "css/designer.83fstzrphz.css",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-83fstzrphz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000788022065"
+          "Quality": "0.000458295142"
         }
       ],
       "ResponseHeaders": [
@@ -245,15 +329,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1268"
+          "Value": "2181"
         },
         {
           "Name": "ETag",
-          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+          "Value": "\"YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+          "Value": "Fri, 21 Nov 2025 13:01:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -273,13 +357,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+          "Value": "W/\"nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "64inkqkdo5"
+          "Value": "83fstzrphz"
         },
         {
           "Name": "label",
@@ -287,12 +371,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+          "Value": "sha256-nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM="
         }
       ]
     },
     {
-      "Route": "css/designer.64inkqkdo5.css",
+      "Route": "css/designer.83fstzrphz.css",
       "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -302,7 +386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4619"
+          "Value": "9995"
         },
         {
           "Name": "Content-Type",
@@ -310,11 +394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+          "Value": "\"nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+          "Value": "Fri, 21 Nov 2025 13:01:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -324,7 +408,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "64inkqkdo5"
+          "Value": "83fstzrphz"
         },
         {
           "Name": "label",
@@ -332,13 +416,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+          "Value": "sha256-nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM="
         }
       ]
     },
     {
-      "Route": "css/designer.64inkqkdo5.css.gz",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Route": "css/designer.83fstzrphz.css.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-83fstzrphz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1268"
+          "Value": "2181"
         },
         {
           "Name": "Content-Type",
@@ -355,11 +439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+          "Value": "\"YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+          "Value": "Fri, 21 Nov 2025 13:01:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -377,7 +461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "64inkqkdo5"
+          "Value": "83fstzrphz"
         },
         {
           "Name": "label",
@@ -385,18 +469,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE="
+          "Value": "sha256-YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8="
         }
       ]
     },
     {
       "Route": "css/designer.css",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-83fstzrphz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000788022065"
+          "Quality": "0.000458295142"
         }
       ],
       "ResponseHeaders": [
@@ -406,15 +490,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1268"
+          "Value": "2181"
         },
         {
           "Name": "ETag",
-          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+          "Value": "\"YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+          "Value": "Fri, 21 Nov 2025 13:01:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -434,13 +518,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+          "Value": "W/\"nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+          "Value": "sha256-nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM="
         }
       ]
     },
@@ -455,7 +539,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4619"
+          "Value": "9995"
         },
         {
           "Name": "Content-Type",
@@ -463,11 +547,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+          "Value": "\"nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+          "Value": "Fri, 21 Nov 2025 13:01:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -477,13 +561,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+          "Value": "sha256-nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM="
         }
       ]
     },
     {
       "Route": "css/designer.css.gz",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-83fstzrphz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -492,7 +576,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1268"
+          "Value": "2181"
         },
         {
           "Name": "Content-Type",
@@ -500,11 +584,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+          "Value": "\"YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+          "Value": "Fri, 21 Nov 2025 13:01:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -522,18 +606,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE="
+          "Value": "sha256-YlVcyCpI7Bds8QEsOHWj5ZojmnJjGHcD/naLXTs4pM8="
         }
       ]
     },
     {
-      "Route": "index.5ygjq1d9kv.html",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Route": "index.1md0frwc70.html",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-1md0frwc70.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000870322019"
+          "Quality": "0.000777000777"
         }
       ],
       "ResponseHeaders": [
@@ -543,15 +627,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1286"
         },
         {
           "Name": "ETag",
-          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+          "Value": "\"QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+          "Value": "Fri, 21 Nov 2025 12:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -571,13 +655,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+          "Value": "W/\"6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ygjq1d9kv"
+          "Value": "1md0frwc70"
         },
         {
           "Name": "label",
@@ -585,12 +669,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+          "Value": "sha256-6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8="
         }
       ]
     },
     {
-      "Route": "index.5ygjq1d9kv.html",
+      "Route": "index.1md0frwc70.html",
       "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -600,7 +684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4828"
+          "Value": "5329"
         },
         {
           "Name": "Content-Type",
@@ -608,11 +692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+          "Value": "\"6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+          "Value": "Fri, 21 Nov 2025 12:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -622,7 +706,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ygjq1d9kv"
+          "Value": "1md0frwc70"
         },
         {
           "Name": "label",
@@ -630,13 +714,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+          "Value": "sha256-6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8="
         }
       ]
     },
     {
-      "Route": "index.5ygjq1d9kv.html.gz",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Route": "index.1md0frwc70.html.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-1md0frwc70.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -645,7 +729,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1286"
         },
         {
           "Name": "Content-Type",
@@ -653,11 +737,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+          "Value": "\"QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+          "Value": "Fri, 21 Nov 2025 12:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -675,7 +759,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ygjq1d9kv"
+          "Value": "1md0frwc70"
         },
         {
           "Name": "label",
@@ -683,18 +767,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE="
+          "Value": "sha256-QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-1md0frwc70.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000870322019"
+          "Quality": "0.000777000777"
         }
       ],
       "ResponseHeaders": [
@@ -704,15 +788,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1286"
         },
         {
           "Name": "ETag",
-          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+          "Value": "\"QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+          "Value": "Fri, 21 Nov 2025 12:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -732,13 +816,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+          "Value": "W/\"6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+          "Value": "sha256-6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8="
         }
       ]
     },
@@ -753,7 +837,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4828"
+          "Value": "5329"
         },
         {
           "Name": "Content-Type",
@@ -761,11 +845,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+          "Value": "\"6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+          "Value": "Fri, 21 Nov 2025 12:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -775,13 +859,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+          "Value": "sha256-6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-1md0frwc70.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -790,7 +874,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1286"
         },
         {
           "Name": "Content-Type",
@@ -798,11 +882,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+          "Value": "\"QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+          "Value": "Fri, 21 Nov 2025 12:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -820,18 +904,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE="
+          "Value": "sha256-QtAqS95RUlBisgcz1ik6Ccuxrpdbcqu6g4EhEuQpdtk="
         }
       ]
     },
     {
-      "Route": "js/designer.21x9moz9ty.js",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Route": "js/designer.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-mdbxxt6yvt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000521920668"
+          "Quality": "0.000450450450"
         }
       ],
       "ResponseHeaders": [
@@ -841,19 +925,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1915"
+          "Value": "2219"
         },
         {
           "Name": "ETag",
-          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+          "Value": "\"m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+          "Value": "Fri, 21 Nov 2025 13:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -869,26 +953,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+          "Value": "W/\"JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "21x9moz9ty"
-        },
-        {
-          "Name": "label",
-          "Value": "js/designer.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+          "Value": "sha256-JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc="
         }
       ]
     },
     {
-      "Route": "js/designer.21x9moz9ty.js",
+      "Route": "js/designer.js",
       "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -898,7 +974,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7920"
+          "Value": "8509"
         },
         {
           "Name": "Content-Type",
@@ -906,11 +982,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+          "Value": "\"JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+          "Value": "Fri, 21 Nov 2025 13:00:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-mdbxxt6yvt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 13:00:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.mdbxxt6yvt.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-mdbxxt6yvt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000450450450"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2219"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 13:00:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mdbxxt6yvt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/designer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.mdbxxt6yvt.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 13:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -920,7 +1141,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "21x9moz9ty"
+          "Value": "mdbxxt6yvt"
         },
         {
           "Name": "label",
@@ -928,13 +1149,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+          "Value": "sha256-JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc="
         }
       ]
     },
     {
-      "Route": "js/designer.21x9moz9ty.js.gz",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Route": "js/designer.mdbxxt6yvt.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-mdbxxt6yvt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -943,7 +1164,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1915"
+          "Value": "2219"
         },
         {
           "Name": "Content-Type",
@@ -951,11 +1172,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+          "Value": "\"m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+          "Value": "Fri, 21 Nov 2025 13:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -973,7 +1194,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "21x9moz9ty"
+          "Value": "mdbxxt6yvt"
         },
         {
           "Name": "label",
@@ -981,18 +1202,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU="
+          "Value": "sha256-m6DkMrPokefJP+TYY5vYtfdaEfmR+HD/Q+IwcsZ/Y2A="
         }
       ]
     },
     {
-      "Route": "js/designer.js",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Route": "js/expression-builder.3hbrtkgof9.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/9trgl3eelg-3hbrtkgof9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000521920668"
+          "Quality": "0.000307314075"
         }
       ],
       "ResponseHeaders": [
@@ -1002,15 +1223,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1915"
+          "Value": "3253"
         },
         {
           "Name": "ETag",
-          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+          "Value": "\"fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+          "Value": "Fri, 21 Nov 2025 12:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3hbrtkgof9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/expression-builder.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc="
+        }
+      ]
+    },
+    {
+      "Route": "js/expression-builder.3hbrtkgof9.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/expression-builder.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3hbrtkgof9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/expression-builder.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc="
+        }
+      ]
+    },
+    {
+      "Route": "js/expression-builder.3hbrtkgof9.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/9trgl3eelg-3hbrtkgof9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3hbrtkgof9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/expression-builder.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc="
+        }
+      ]
+    },
+    {
+      "Route": "js/expression-builder.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/9trgl3eelg-3hbrtkgof9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000307314075"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3253"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1030,19 +1412,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+          "Value": "W/\"KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+          "Value": "sha256-KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc="
         }
       ]
     },
     {
-      "Route": "js/designer.js",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "Route": "js/expression-builder.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/expression-builder.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1051,7 +1433,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7920"
+          "Value": "13762"
         },
         {
           "Name": "Content-Type",
@@ -1059,11 +1441,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+          "Value": "\"KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+          "Value": "Fri, 21 Nov 2025 12:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1073,13 +1455,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+          "Value": "sha256-KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc="
         }
       ]
     },
     {
-      "Route": "js/designer.js.gz",
-      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Route": "js/expression-builder.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/9trgl3eelg-3hbrtkgof9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1088,7 +1470,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1915"
+          "Value": "3253"
         },
         {
           "Name": "Content-Type",
@@ -1096,11 +1478,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+          "Value": "\"fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+          "Value": "Fri, 21 Nov 2025 12:58:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1118,7 +1500,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU="
+          "Value": "sha256-fGZzeVGJvdfT/K0BwhfgsRKhvfAnRiRSpkmVa1NunTc="
+        }
+      ]
+    },
+    {
+      "Route": "js/property-editors.efm0du7frm.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/22oc1ihm1b-efm0du7frm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000210393436"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4752"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efm0du7frm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/property-editors.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/property-editors.efm0du7frm.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/property-editors.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efm0du7frm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/property-editors.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/property-editors.efm0du7frm.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/22oc1ihm1b-efm0du7frm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efm0du7frm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/property-editors.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4="
+        }
+      ]
+    },
+    {
+      "Route": "js/property-editors.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/22oc1ihm1b-efm0du7frm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000210393436"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4752"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/property-editors.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/property-editors.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/property-editors.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/22oc1ihm1b-efm0du7frm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 12:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttJSw1wCmS/CiQjDYu9e3906ENX/RbYfPg4BC3+QZM4="
         }
       ]
     },

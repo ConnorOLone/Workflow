@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/js/designer.js"
     },
     {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/expression-builder.js",
+      "PackagePath": "staticwebassets/js/expression-builder.js"
+    },
+    {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/property-editors.js",
+      "PackagePath": "staticwebassets/js/property-editors.js"
+    },
+    {
       "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
       "PackagePath": "staticwebassets/js/workflow-api.js"
     },

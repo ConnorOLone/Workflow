@@ -295,3 +295,321 @@ body {
     font-size: 0.875rem;
     color: #7f8c8d;
 }
+
+/* Expression Builder Styles */
+.expression-builder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.expression-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.toolbar-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.toolbar-section.ml-auto {
+    margin-left: auto;
+}
+
+.toolbar-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #7f8c8d;
+    white-space: nowrap;
+}
+
+.variable-picker,
+.function-category,
+.function-picker {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    background: white;
+    max-width: 150px;
+}
+
+.btn-toolbar {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.2s;
+}
+
+.btn-toolbar:hover {
+    background: #ecf0f1;
+    border-color: #95a5a6;
+}
+
+.expression-editor {
+    border: none;
+    overflow: hidden;
+}
+
+.expression-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: #f8f9fa;
+    border-top: 1px solid #ddd;
+    font-size: 0.75rem;
+}
+
+.status-icon {
+    font-size: 0.625rem;
+}
+
+.status-icon.status-ready {
+    color: #95a5a6;
+}
+
+.status-icon.status-modified {
+    color: #3498db;
+}
+
+.status-icon.status-success {
+    color: #2ecc71;
+}
+
+.status-icon.status-warning {
+    color: #f39c12;
+}
+
+.status-icon.status-error {
+    color: #e74c3c;
+}
+
+.status-text {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.status-hint {
+    color: #7f8c8d;
+    font-size: 0.7rem;
+}
+
+/* Property Editor Styles */
+.form-section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.form-section:last-of-type {
+    border-bottom: none;
+}
+
+.form-section h4 {
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-hint {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: #95a5a6;
+    font-style: italic;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.text-muted {
+    color: #95a5a6;
+    font-style: italic;
+    font-size: 0.875rem;
+}
+
+.btn-sm {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+}
+
+.btn-remove {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+    background: white;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.btn-remove:hover {
+    background: #e74c3c;
+    color: white;
+}
+
+.form-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ecf0f1;
+}
+
+/* Mapping Rows */
+.mapping-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mapping-key,
+.mapping-value {
+    flex: 1;
+    padding: 0.375rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.75rem;
+}
+
+.mapping-arrow {
+    color: #95a5a6;
+    font-weight: bold;
+}
+
+/* Condition Cards */
+.condition-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fafafa;
+}
+
+.condition-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.condition-name {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.condition-expression {
+    margin-bottom: 0.75rem;
+}
+
+.condition-output {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+/* Form Field Rows */
+.form-field-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px auto auto;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background: #fafafa;
+    border-radius: 4px;
+}
+
+.field-name,
+.field-label,
+.field-type {
+    padding: 0.375rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.75rem;
+}
+
+.field-required {
+    margin-right: 0.25rem;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Scrollbar Styling */
+.properties-panel::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.properties-panel::-webkit-scrollbar-track,
+.modal-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.properties-panel::-webkit-scrollbar-thumb,
+.modal-body::-webkit-scrollbar-thumb {
+    background: #95a5a6;
+    border-radius: 4px;
+}
+
+.properties-panel::-webkit-scrollbar-thumb:hover,
+.modal-body::-webkit-scrollbar-thumb:hover {
+    background: #7f8c8d;
+}

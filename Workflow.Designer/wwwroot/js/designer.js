@@ -4,6 +4,7 @@ class WorkflowDesigner {
         this.api = new WorkflowAPI();
         this.canvas = new WorkflowCanvas('workflowCanvas');
         this.currentDefinition = null;
+        this.currentPropertyEditor = null;
 
         this.setupEventListeners();
         this.setupDragAndDrop();
@@ -143,51 +144,84 @@ class WorkflowDesigner {
     }
 
     showProperties(activity) {
-        const panel = document.getElementById('propertiesContent');
-        panel.innerHTML = `
-            <div class="form-group">
-                <label>Name:</label>
-                <input type="text" id="propName" value="${activity.name}">
-            </div>
-            <div class="form-group">
-                <label>Type:</label>
-                <input type="text" value="${activity.type}" readonly>
-            </div>
-            <div class="form-group">
-                <label>Description:</label>
-                <textarea id="propDescription" rows="3">${activity.description || ''}</textarea>
-            </div>
-            <div class="form-group">
-                <label>Configuration (JSON):</label>
-                <textarea id="propConfig" rows="5">${JSON.stringify(activity.configuration, null, 2)}</textarea>
-            </div>
-            <div class="form-group">
-                <label>Input Mappings (JSON):</label>
-                <textarea id="propInputMappings" rows="3">${JSON.stringify(activity.inputMappings, null, 2)}</textarea>
-            </div>
-            <div class="form-group">
-                <label>Output Mappings (JSON):</label>
-                <textarea id="propOutputMappings" rows="3">${JSON.stringify(activity.outputMappings, null, 2)}</textarea>
-            </div>
-            <button class="btn btn-primary" id="applyPropertiesBtn">Apply</button>
-        `;
+        // Clean up previous editor
+        if (this.currentPropertyEditor) {
+            this.currentPropertyEditor.destroy();
+            this.currentPropertyEditor = null;
+        }
 
-        document.getElementById('applyPropertiesBtn').addEventListener('click', () => {
-            activity.name = document.getElementById('propName').value;
-            activity.description = document.getElementById('propDescription').value;
-            try {
-                activity.configuration = JSON.parse(document.getElementById('propConfig').value);
-                activity.inputMappings = JSON.parse(document.getElementById('propInputMappings').value);
-                activity.outputMappings = JSON.parse(document.getElementById('propOutputMappings').value);
+        const panel = document.getElementById('propertiesContent');
+
+        // Get workflow variables for expression builder
+        const workflowVariables = this.currentDefinition?.variables || {};
+
+        // Create activity-specific property editor
+        const editor = PropertyEditorFactory.createEditor(activity, workflowVariables);
+        this.currentPropertyEditor = editor;
+
+        // Render the editor
+        panel.innerHTML = editor.render();
+
+        // Attach any event listeners the editor needs
+        if (editor.attachEventListeners) {
+            editor.attachEventListeners();
+        }
+
+        // Handle Apply button
+        const applyBtn = document.getElementById('applyPropertiesBtn');
+        if (applyBtn) {
+            applyBtn.addEventListener('click', () => {
+                const success = editor.apply();
+                if (success !== false) {
+                    this.canvas.draw();
+                    this.showNotification('Properties updated successfully', 'success');
+                }
+            });
+        }
+
+        // Handle Cancel button
+        const cancelBtn = document.getElementById('cancelPropertiesBtn');
+        if (cancelBtn) {
+            cancelBtn.addEventListener('click', () => {
+                this.clearProperties();
+                this.canvas.selectedActivity = null;
                 this.canvas.draw();
-                alert('Properties updated!');
-            } catch (error) {
-                alert('Error parsing JSON: ' + error.message);
-            }
-        });
+            });
+        }
+    }
+
+    showNotification(message, type = 'info') {
+        // Simple notification - could be enhanced with a toast library
+        const style = type === 'success' ? 'background: #2ecc71; color: white;' :
+                      type === 'error' ? 'background: #e74c3c; color: white;' :
+                      'background: #3498db; color: white;';
+
+        const notification = document.createElement('div');
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 4px;
+            ${style}
+            z-index: 10000;
+            animation: slideIn 0.3s ease;
+        `;
+        notification.textContent = message;
+        document.body.appendChild(notification);
+
+        setTimeout(() => {
+            notification.style.animation = 'slideOut 0.3s ease';
+            setTimeout(() => notification.remove(), 300);
+        }, 3000);
     }
 
     clearProperties() {
+        // Clean up current editor
+        if (this.currentPropertyEditor) {
+            this.currentPropertyEditor.destroy();
+            this.currentPropertyEditor = null;
+        }
         document.getElementById('propertiesContent').innerHTML = '<p class="no-selection">Select an activity to view properties</p>';
     }
 }
