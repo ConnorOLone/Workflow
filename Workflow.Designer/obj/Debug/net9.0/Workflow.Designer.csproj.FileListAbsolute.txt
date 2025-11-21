@@ -56,7 +56,6 @@
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/bin/Debug/net9.0/Workflow.Core.pdb
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/scopedcss/bundle/Workflow.Designer.styles.css
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz
-/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-mzdv14uvt3.gz
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/staticwebassets.build.json
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/staticwebassets.development.json
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -73,8 +72,9 @@
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/Workflow.Designer.genruntimeconfig.cache
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/ref/Workflow.Designer.dll
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/Workflow.Designer.sourcelink.json
-/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-83fstzrphz.gz
-/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-1md0frwc70.gz
-/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-mdbxxt6yvt.gz
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/9trgl3eelg-3hbrtkgof9.gz
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/22oc1ihm1b-efm0du7frm.gz
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-nhhjgzmvv7.gz
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-ncfc40l5sp.gz
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-ho61w4ze69.gz
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-xg8v72tp6u.gz

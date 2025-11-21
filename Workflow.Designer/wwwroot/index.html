@@ -23,7 +23,7 @@
 
         <div class="app-body">
             <!-- Toolbox -->
-            <aside class="toolbox">
+            <aside class="toolbox" id="toolbox">
                 <h3>Activities</h3>
                 <div class="activity-palette">
                     <div class="activity-item" draggable="true" data-type="Start">
@@ -54,18 +54,34 @@
             </aside>
 
             <!-- Canvas -->
-            <main class="canvas-container">
-                <canvas id="workflowCanvas" width="1200" height="800"></canvas>
+            <main class="canvas-container" id="canvasContainer">
+                <canvas id="workflowCanvas"></canvas>
+
+                <!-- Zoom Controls -->
+                <div class="zoom-controls">
+                    <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out (Ctrl + Scroll)">−</button>
+                    <span id="zoomLevel" class="zoom-level">100%</span>
+                    <button id="zoomInBtn" class="zoom-btn" title="Zoom In (Ctrl + Scroll)">+</button>
+                    <button id="resetZoomBtn" class="zoom-btn" title="Reset View">⊙</button>
+                </div>
+
+                <!-- Context Menu -->
                 <div id="contextMenu" class="context-menu" style="display: none;">
                     <div class="menu-item" data-action="properties">Properties</div>
                     <div class="menu-item" data-action="delete">Delete</div>
-                    <div class="menu-item" data-action="connect">Connect To...</div>
+                    <div class="menu-item" data-action="duplicate">Duplicate</div>
                 </div>
             </main>
 
+            <!-- Resize Handle -->
+            <div class="resize-handle" id="resizeHandle"></div>
+
             <!-- Properties Panel -->
-            <aside class="properties-panel">
-                <h3>Properties</h3>
+            <aside class="properties-panel" id="propertiesPanel">
+                <div class="properties-header">
+                    <h3>Properties</h3>
+                    <button id="closePropertiesBtn" class="close-properties-btn" title="Close Properties">×</button>
+                </div>
                 <div id="propertiesContent">
                     <p class="no-selection">Select an activity to view properties</p>
                 </div>

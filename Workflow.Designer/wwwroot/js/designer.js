@@ -8,6 +8,8 @@ class WorkflowDesigner {
 
         this.setupEventListeners();
         this.setupDragAndDrop();
+        this.setupResizablePanel();
+        this.setupZoomControls();
     }
 
     setupEventListeners() {
@@ -38,6 +40,71 @@ class WorkflowDesigner {
             item.addEventListener('dragstart', (e) => {
                 e.dataTransfer.setData('activityType', item.dataset.type);
             });
+        });
+    }
+
+    setupResizablePanel() {
+        const resizeHandle = document.getElementById('resizeHandle');
+        const propertiesPanel = document.getElementById('propertiesPanel');
+        let isResizing = false;
+        let startX = 0;
+        let startWidth = 0;
+
+        resizeHandle.addEventListener('mousedown', (e) => {
+            isResizing = true;
+            startX = e.clientX;
+            startWidth = propertiesPanel.offsetWidth;
+            resizeHandle.classList.add('resizing');
+            document.body.style.cursor = 'col-resize';
+            document.body.style.userSelect = 'none';
+            e.preventDefault();
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isResizing) return;
+
+            const deltaX = startX - e.clientX;
+            const newWidth = startWidth + deltaX;
+
+            // Respect min and max width
+            const minWidth = parseInt(getComputedStyle(propertiesPanel).minWidth);
+            const maxWidth = parseInt(getComputedStyle(propertiesPanel).maxWidth);
+
+            if (newWidth >= minWidth && newWidth <= maxWidth) {
+                propertiesPanel.style.width = newWidth + 'px';
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (isResizing) {
+                isResizing = false;
+                resizeHandle.classList.remove('resizing');
+                document.body.style.cursor = '';
+                document.body.style.userSelect = '';
+            }
+        });
+
+        // Close properties button
+        const closeBtn = document.getElementById('closePropertiesBtn');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                propertiesPanel.classList.add('hidden');
+                resizeHandle.style.display = 'none';
+            });
+        }
+    }
+
+    setupZoomControls() {
+        document.getElementById('zoomInBtn')?.addEventListener('click', () => {
+            this.canvas.zoomIn();
+        });
+
+        document.getElementById('zoomOutBtn')?.addEventListener('click', () => {
+            this.canvas.zoomOut();
+        });
+
+        document.getElementById('resetZoomBtn')?.addEventListener('click', () => {
+            this.canvas.resetView();
         });
     }
 
@@ -144,6 +211,14 @@ class WorkflowDesigner {
     }
 
     showProperties(activity) {
+        // Show properties panel if hidden
+        const propertiesPanel = document.getElementById('propertiesPanel');
+        const resizeHandle = document.getElementById('resizeHandle');
+        if (propertiesPanel.classList.contains('hidden')) {
+            propertiesPanel.classList.remove('hidden');
+            resizeHandle.style.display = 'block';
+        }
+
         // Clean up previous editor
         if (this.currentPropertyEditor) {
             this.currentPropertyEditor.destroy();

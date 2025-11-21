@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>83fstzrphz</Fingerprint>
-      <Integrity>nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=</Integrity>
+      <Fingerprint>nhhjgzmvv7</Fingerprint>
+      <Integrity>tYRj41HmE9n3KKq90JNNJTpmpqQqYmSKKYU5g21NXOQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\designer.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1md0frwc70</Fingerprint>
-      <Integrity>6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=</Integrity>
+      <Fingerprint>ncfc40l5sp</Fingerprint>
+      <Integrity>t+wCkvb6iFYQDPXgJDi6G/vHE6kWJPAWUzxmqj24IOg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mdbxxt6yvt</Fingerprint>
-      <Integrity>JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=</Integrity>
+      <Fingerprint>ho61w4ze69</Fingerprint>
+      <Integrity>78fPOzeIuo3l/cRxBgFsyt2F+p4+J9rMWK5iKwA1Mfg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\designer.js'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mzdv14uvt3</Fingerprint>
-      <Integrity>btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg=</Integrity>
+      <Fingerprint>xg8v72tp6u</Fingerprint>
+      <Integrity>XwSqFA3kQpChYlf+759nH1cF3HMVsl8iJC7lnVQRgsk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\workflow-canvas.js'))</OriginalItemSpec>
