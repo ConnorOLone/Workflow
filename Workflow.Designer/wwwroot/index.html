@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Designer</title>
+    <link rel="stylesheet" href="/css/designer.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>🔄 Workflow Designer</h1>
+            <div class="header-actions">
+                <button id="newWorkflowBtn" class="btn btn-primary">New Workflow</button>
+                <button id="saveWorkflowBtn" class="btn btn-success">Save</button>
+                <button id="loadWorkflowBtn" class="btn btn-secondary">Load</button>
+                <button id="startWorkflowBtn" class="btn btn-info">Start Instance</button>
+            </div>
+        </header>
+
+        <div class="app-body">
+            <!-- Toolbox -->
+            <aside class="toolbox">
+                <h3>Activities</h3>
+                <div class="activity-palette">
+                    <div class="activity-item" draggable="true" data-type="Start">
+                        <span class="activity-icon">▶️</span>
+                        <span>Start</span>
+                    </div>
+                    <div class="activity-item" draggable="true" data-type="HumanTask">
+                        <span class="activity-icon">👤</span>
+                        <span>Human Task</span>
+                    </div>
+                    <div class="activity-item" draggable="true" data-type="ServiceTask">
+                        <span class="activity-icon">⚙️</span>
+                        <span>Service Task</span>
+                    </div>
+                    <div class="activity-item" draggable="true" data-type="ScriptTask">
+                        <span class="activity-icon">📝</span>
+                        <span>Script Task</span>
+                    </div>
+                    <div class="activity-item" draggable="true" data-type="Decision">
+                        <span class="activity-icon">🔀</span>
+                        <span>Decision</span>
+                    </div>
+                    <div class="activity-item" draggable="true" data-type="End">
+                        <span class="activity-icon">⏹️</span>
+                        <span>End</span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Canvas -->
+            <main class="canvas-container">
+                <canvas id="workflowCanvas" width="1200" height="800"></canvas>
+                <div id="contextMenu" class="context-menu" style="display: none;">
+                    <div class="menu-item" data-action="properties">Properties</div>
+                    <div class="menu-item" data-action="delete">Delete</div>
+                    <div class="menu-item" data-action="connect">Connect To...</div>
+                </div>
+            </main>
+
+            <!-- Properties Panel -->
+            <aside class="properties-panel">
+                <h3>Properties</h3>
+                <div id="propertiesContent">
+                    <p class="no-selection">Select an activity to view properties</p>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Workflows List Modal -->
+        <div id="workflowsModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Workflows</h2>
+                    <button class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="workflowsList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Instance Modal -->
+        <div id="startModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Start Workflow Instance</h2>
+                    <button class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Initial Variables (JSON):</label>
+                        <textarea id="initialVariables" rows="10" placeholder='{"key": "value"}'></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Initiated By:</label>
+                        <input type="text" id="initiatedBy" placeholder="user@example.com">
+                    </div>
+                    <button id="confirmStartBtn" class="btn btn-primary">Start</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/workflow-api.js"></script>
+    <script src="/js/workflow-canvas.js"></script>
+    <script src="/js/designer.js"></script>
+</body>
+</html>

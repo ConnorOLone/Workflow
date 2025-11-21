@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
+      "PackagePath": "staticwebassets/css/designer.css"
+    },
+    {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "PackagePath": "staticwebassets/js/designer.js"
+    },
+    {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
+      "PackagePath": "staticwebassets/js/workflow-api.js"
+    },
+    {
+      "Id": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js",
+      "PackagePath": "staticwebassets/js/workflow-canvas.js"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Workflow.Designer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Workflow.Designer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Workflow.Designer.props",
+      "PackagePath": "build\\Workflow.Designer.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Workflow.Designer.props",
+      "PackagePath": "buildMultiTargeting\\Workflow.Designer.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Workflow.Designer.props",
+      "PackagePath": "buildTransitive\\Workflow.Designer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

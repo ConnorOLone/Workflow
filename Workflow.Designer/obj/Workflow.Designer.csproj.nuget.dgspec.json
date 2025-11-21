@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/Workflow.Designer.csproj": {}
+  },
+  "projects": {
+    "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/Workflow.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/Workflow.Core.csproj",
+        "projectName": "Workflow.Core",
+        "projectPath": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/Workflow.Core.csproj",
+        "packagesPath": "/Users/connorolone/.nuget/packages/",
+        "outputPath": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/connorolone/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/Workflow.Designer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/Workflow.Designer.csproj",
+        "projectName": "Workflow.Designer",
+        "projectPath": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/Workflow.Designer.csproj",
+        "packagesPath": "/Users/connorolone/.nuget/packages/",
+        "outputPath": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/connorolone/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/Workflow.Core.csproj": {
+                "projectPath": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/Workflow.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

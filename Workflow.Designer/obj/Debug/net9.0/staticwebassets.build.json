@@ -1,0 +1,1722 @@
+{
+  "Version": 1,
+  "Hash": "+ixTPBfS4k17bJNB6biWia6QFmVtGtenpvG+JFoB06M=",
+  "Source": "Workflow.Designer",
+  "BasePath": "_content/Workflow.Designer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Workflow.Designer/wwwroot",
+      "Source": "Workflow.Designer",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/workflow-api#[.{fingerprint=xrmvwyyobl}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6sizufn1jb",
+      "Integrity": "Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-mzdv14uvt3.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/workflow-canvas#[.{fingerprint=mzdv14uvt3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q0m9ldhggk",
+      "Integrity": "Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "index#[.{fingerprint=5ygjq1d9kv}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r45sy6x74l",
+      "Integrity": "+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "css/designer#[.{fingerprint=64inkqkdo5}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "t8cw4r6wwk",
+      "Integrity": "/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/designer#[.{fingerprint=21x9moz9ty}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v60kkwwa5x",
+      "Integrity": "CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "css/designer#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "64inkqkdo5",
+      "Integrity": "dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/designer.css"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ygjq1d9kv",
+      "Integrity": "cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/designer#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "21x9moz9ty",
+      "Integrity": "drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/designer.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/workflow-api#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xrmvwyyobl",
+      "Integrity": "83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/workflow-api.js"
+    },
+    {
+      "Identity": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js",
+      "SourceId": "Workflow.Designer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/",
+      "BasePath": "_content/Workflow.Designer",
+      "RelativePath": "js/workflow-canvas#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzdv14uvt3",
+      "Integrity": "btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/workflow-canvas.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/designer.64inkqkdo5.css",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000788022065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1268"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "64inkqkdo5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/designer.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/designer.64inkqkdo5.css",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "64inkqkdo5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/designer.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/designer.64inkqkdo5.css.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "64inkqkdo5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/designer.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE="
+        }
+      ]
+    },
+    {
+      "Route": "css/designer.css",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000788022065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1268"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/designer.css",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/css/designer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/designer.css.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/jeozyo0o8z-64inkqkdo5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/TUvxa0oP0JSb/ejpdmGywneYHoU4v4FNvOAyColCfE="
+        }
+      ]
+    },
+    {
+      "Route": "index.5ygjq1d9kv.html",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000870322019"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ygjq1d9kv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+        }
+      ]
+    },
+    {
+      "Route": "index.5ygjq1d9kv.html",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ygjq1d9kv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+        }
+      ]
+    },
+    {
+      "Route": "index.5ygjq1d9kv.html.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ygjq1d9kv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000870322019"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/dlr2ckvsi7-5ygjq1d9kv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+xI4wVPSFh4WpiRe1HJN2uezpkmQG+7Tz1DbYkqoryE="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.21x9moz9ty.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000521920668"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1915"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21x9moz9ty"
+        },
+        {
+          "Name": "label",
+          "Value": "js/designer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.21x9moz9ty.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21x9moz9ty"
+        },
+        {
+          "Name": "label",
+          "Value": "js/designer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.21x9moz9ty.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21x9moz9ty"
+        },
+        {
+          "Name": "label",
+          "Value": "js/designer.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000521920668"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1915"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/designer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU="
+        }
+      ]
+    },
+    {
+      "Route": "js/designer.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/n57vzlm3r8-21x9moz9ty.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CS5zNfhA996R9jxNT26QEQBkAT2QUPdxLEQZopnPAGU="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-api.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002159827214"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "462"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-api.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-api.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-api.xrmvwyyobl.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002159827214"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "462"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrmvwyyobl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/workflow-api.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-api.xrmvwyyobl.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrmvwyyobl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/workflow-api.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-83L2PMfEgjei/0tcDWaUUVgLtr1cGyIkRmfr4NRG8M8="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-api.xrmvwyyobl.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/2qndraiyjq-xrmvwyyobl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrmvwyyobl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/workflow-api.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kox+3QO8P86eq9u62Tv6eqmSi8swvZcXtpt0DohEtJo="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-canvas.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-mzdv14uvt3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2749"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-canvas.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-canvas.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-mzdv14uvt3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-canvas.mzdv14uvt3.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-mzdv14uvt3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2749"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzdv14uvt3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/workflow-canvas.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-canvas.mzdv14uvt3.js",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/wwwroot/js/workflow-canvas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzdv14uvt3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/workflow-canvas.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-btY+aDfsPFTRAhxGVH+O/uxtzh+qJRT8S0PZGY9q9pg="
+        }
+      ]
+    },
+    {
+      "Route": "js/workflow-canvas.mzdv14uvt3.js.gz",
+      "AssetFile": "/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Designer/obj/Debug/net9.0/compressed/364stu1qsk-mzdv14uvt3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Nov 2025 20:40:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzdv14uvt3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/workflow-canvas.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ro+gqXoNjFPCs8hsGyGNMJOQBp2fMQYQupjYnV3X4gQ="
+        }
+      ]
+    }
+  ]
+}

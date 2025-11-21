@@ -1,0 +1,14 @@
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/bin/Debug/net9.0/Workflow.Core.deps.json
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/bin/Debug/net9.0/Workflow.Core.dll
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/bin/Debug/net9.0/Workflow.Core.pdb
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.AssemblyInfoInputs.cache
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.AssemblyInfo.cs
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.csproj.CoreCompileInputs.cache
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.dll
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/refint/Workflow.Core.dll
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.pdb
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/ref/Workflow.Core.dll
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/bin/Debug/net9.0/Workflow.Core.runtimeconfig.json
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.csproj.AssemblyReference.cache
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.genruntimeconfig.cache
