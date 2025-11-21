@@ -2,3 +2,5 @@
 # Ignore bin and obj directories
 **/bin/
 **/obj/
+.vs/
+Workflow.Designer/Workflow.Designer.csproj.user
