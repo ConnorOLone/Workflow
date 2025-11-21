@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>64inkqkdo5</Fingerprint>
-      <Integrity>dncoEWDzoRsEKjywojl3nsyAWBy5rd1aQ2QcwGTWw0o=</Integrity>
+      <Fingerprint>83fstzrphz</Fingerprint>
+      <Integrity>nCs4QXkDsS28M70K/MhH3kRK4Gu88L2e7geWqoVPdAM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\designer.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5ygjq1d9kv</Fingerprint>
-      <Integrity>cxXpBXUwx1ivBhgcAVNGN0Tap+OdCmHMuw/unwDmG/A=</Integrity>
+      <Fingerprint>1md0frwc70</Fingerprint>
+      <Integrity>6f8zxPvGotsdle6PVvSAh3UdQUXqk6CcOMfEBu9YuI8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -48,11 +48,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>21x9moz9ty</Fingerprint>
-      <Integrity>drVOVAO02m5ingesr+Zhz/e3gzqGmbZXPmcQiFCepBU=</Integrity>
+      <Fingerprint>mdbxxt6yvt</Fingerprint>
+      <Integrity>JhP0JSBmZZ2AIDsFBCPjzbrOqf+tW3VAFdzuH0n2bOc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\designer.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\expression-builder.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Workflow.Designer</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Workflow.Designer</BasePath>
+      <RelativePath>js/expression-builder.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3hbrtkgof9</Fingerprint>
+      <Integrity>KYDGYegx2P/YV7lLcrJ1ker3wNW7sJ+VI7ANbmui5Tc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\expression-builder.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\property-editors.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Workflow.Designer</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Workflow.Designer</BasePath>
+      <RelativePath>js/property-editors.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>efm0du7frm</Fingerprint>
+      <Integrity>dvlgxTZaoJrP/4QItz4iHhxzdi/Bk0/74teDTDBy8cQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\property-editors.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\workflow-api.js'))">
       <SourceType>Package</SourceType>

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workflow Designer</title>
     <link rel="stylesheet" href="/css/designer.css">
+    <!-- Monaco Editor -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/editor/editor.main.css">
 </head>
 <body>
     <div class="app-container">
@@ -105,7 +107,15 @@
         </div>
     </div>
 
+    <!-- Monaco Editor -->
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.js"></script>
+    <script>
+        require.config({ paths: { vs: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs' } });
+    </script>
+
     <script src="/js/workflow-api.js"></script>
+    <script src="/js/expression-builder.js"></script>
+    <script src="/js/property-editors.js"></script>
     <script src="/js/workflow-canvas.js"></script>
     <script src="/js/designer.js"></script>
 </body>

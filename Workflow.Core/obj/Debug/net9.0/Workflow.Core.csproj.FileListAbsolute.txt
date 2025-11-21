@@ -12,3 +12,4 @@
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/bin/Debug/net9.0/Workflow.Core.runtimeconfig.json
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.csproj.AssemblyReference.cache
 /Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.genruntimeconfig.cache
+/Users/connorolone/CodeHub/CSharp/Workflow/Workflow.Core/obj/Debug/net9.0/Workflow.Core.sourcelink.json
