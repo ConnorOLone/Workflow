@@ -222,6 +222,218 @@ await engine.CompleteActivityAsync(
 );
 ```
 
+## 📜 Script Task Execution
+
+The workflow engine supports executing scripts in multiple languages with full security sandboxing and variable access.
+
+### **Supported Languages**
+
+#### **PowerShell**
+- Full PowerShell 7.4 support
+- Constrained language mode for security
+- Access workflow variables via `$variableName`
+- Automatic variable modification tracking
+
+**Example PowerShell Script:**
+```powershell
+# Access workflow variables
+$total = $orderAmount * $quantity
+
+# Apply business logic
+if ($total -gt 1000) {
+    $requiresApproval = $true
+} else {
+    $requiresApproval = $false
+}
+
+# Modify variables (automatically captured back to workflow)
+$calculatedTotal = $total * 1.1  # Add 10% markup
+
+# Return value
+$calculatedTotal
+```
+
+#### **C# (Roslyn)**
+- Full C# 12 support with Roslyn scripting
+- Access variables via `Variables` dictionary or helper methods
+- Supports LINQ and modern C# features
+- Script compilation caching for performance
+
+**Example C# Script:**
+```csharp
+// Access workflow variables using Variables dictionary
+var orderAmount = (decimal)Variables["orderAmount"];
+var quantity = (int)Variables["quantity"];
+var total = orderAmount * quantity;
+
+// Use helper methods for type-safe access
+var customerType = Get<string>("customerType");
+
+// Apply business logic with LINQ
+var items = Variables["items"] as List<string>;
+var filteredItems = items.Where(x => x.StartsWith("A")).ToList();
+
+// Modify variables
+Set("filteredItems", filteredItems);
+Set("total", total);
+
+// Return value
+return total > 1000;
+```
+
+### **Variable Access**
+
+Scripts have full access to workflow variables and activity inputs:
+
+| Language | Read Variable | Write Variable | Type Conversion |
+|----------|--------------|----------------|-----------------|
+| PowerShell | `$variableName` | `$variableName = value` | Automatic |
+| C# | `Variables["name"]` | `Variables["name"] = value` | Manual cast |
+| C# (Helper) | `Get<T>("name")` | `Set("name", value)` | Automatic |
+
+### **Security & Sandboxing**
+
+Scripts run in secure sandboxed environments by default:
+
+**PowerShell:**
+- Constrained language mode enabled
+- Dangerous cmdlets blocked: `Invoke-Expression`, `Start-Process`, etc.
+- File system cmdlets removed by default
+- Network cmdlets removed by default
+
+**C#:**
+- Whitelist-only assemblies and namespaces
+- No file I/O by default (`System.IO` not imported)
+- No network access by default (`System.Net` not imported)
+- No process execution (`System.Diagnostics.Process` blocked)
+
+### **Configuration Options**
+
+Configure script execution via activity configuration:
+
+```json
+{
+  "script": "return Variables[\"x\"] + Variables[\"y\"];",
+  "language": "csharp",
+  "timeoutSeconds": 30,
+  "allowFileSystem": false,
+  "allowNetwork": false,
+  "allowedNamespaces": "System.Text.Json,System.Xml",
+  "allowedAssemblies": "System.Text.Json.dll"
+}
+```
+
+**Available Options:**
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `script` | string | *required* | The script code to execute |
+| `language` | string | `"csharp"` | Script language: `powershell`, `csharp`, `ps`, `cs` |
+| `timeoutSeconds` | int | `30` | Maximum execution time |
+| `allowFileSystem` | bool | `false` | Allow file system access |
+| `allowNetwork` | bool | `false` | Allow network access |
+| `allowedNamespaces` | string | `""` | Comma-separated namespaces (C# only) |
+| `allowedAssemblies` | string | `""` | Comma-separated assemblies (C# only) |
+
+### **Workflow Builder Example**
+
+```csharp
+var workflow = new WorkflowBuilder("Order Processing", "1.0.0")
+    .WithVariable("orderAmount", 0m)
+    .WithVariable("quantity", 0)
+
+    .AddStartActivity("Start")
+        .ThenScriptTask("Calculate Total")
+
+    .AddScriptTask("Calculate Total")
+        .WithConfiguration("language", "csharp")
+        .WithConfiguration("script", @"
+            var amount = (decimal)Variables[""orderAmount""];
+            var qty = (int)Variables[""quantity""];
+            var total = amount * qty;
+            Set(""total"", total);
+            return total;
+        ")
+        .ThenEnd()
+
+    .Build();
+```
+
+### **Return Values & Output**
+
+Script execution results are available in activity output:
+
+```csharp
+{
+    "scriptResult": <return_value>,           // Last output or returned value
+    "executionTime": 123.45,                  // Execution time in milliseconds
+    "language": "csharp",                     // Language used
+    "modified_variableName": <new_value>      // Each modified variable
+}
+```
+
+Modified variables are automatically updated in the workflow context.
+
+### **Error Handling**
+
+Scripts that fail return detailed error information:
+
+```csharp
+{
+    "Success": false,
+    "ErrorMessage": "Compilation error: CS1002: ; expected",
+    "ErrorStackTrace": "..."
+}
+```
+
+**Common Errors:**
+- **Compilation errors** (C#): Syntax errors, missing semicolons, unknown types
+- **Runtime errors**: Null references, divide by zero, invalid casts
+- **Timeout errors**: Script exceeded `timeoutSeconds` limit
+- **Security errors**: Attempted to use blocked cmdlets or namespaces
+
+### **Performance Considerations**
+
+1. **C# Script Caching**: Compiled scripts are cached for repeat executions
+2. **PowerShell Overhead**: Each execution creates a new runspace (slower than C#)
+3. **Recommendation**: Use C# for compute-intensive operations, PowerShell for simple logic
+
+### **Best Practices**
+
+1. **Keep scripts short** - Complex logic should be in service tasks or activities
+2. **Use timeouts** - Always set reasonable timeout values
+3. **Handle nulls** - Check for null variables before using them
+4. **Test scripts** - Test scripts in isolation before adding to workflows
+5. **Document scripts** - Add comments explaining business logic
+6. **Prefer C# for complex logic** - Better performance and type safety
+7. **Use PowerShell for simple tasks** - Quick variable manipulation and decisions
+
+### **Example Use Cases**
+
+**1. Dynamic Pricing Calculation:**
+```csharp
+var basePrice = Get<decimal>("basePrice");
+var customerType = Get<string>("customerType");
+var discount = customerType == "Premium" ? 0.2m : 0.1m;
+var finalPrice = basePrice * (1 - discount);
+Set("finalPrice", finalPrice);
+return finalPrice;
+```
+
+**2. Data Validation:**
+```powershell
+$email = $userEmail
+$isValid = $email -match '^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$'
+$isValid
+```
+
+**3. Conditional Routing:**
+```csharp
+var items = Variables["orderItems"] as List<object>;
+var total = Get<decimal>("orderTotal");
+return items.Count > 10 || total > 5000;  // Route to special handling
+```
+
 ## 🌐 REST API
 
 ### **Workflow Definitions**

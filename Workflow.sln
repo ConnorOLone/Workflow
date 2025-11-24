@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTest001", "SampleTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Designer", "Workflow.Designer\Workflow.Designer.csproj", "{D1D5E9C5-A31D-4FF4-9D41-BF49B3F572E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Core.Tests", "Workflow.Core.Tests\Workflow.Core.Tests.csproj", "{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{D1D5E9C5-A31D-4FF4-9D41-BF49B3F572E4}.Release|x64.Build.0 = Release|Any CPU
 		{D1D5E9C5-A31D-4FF4-9D41-BF49B3F572E4}.Release|x86.ActiveCfg = Release|Any CPU
 		{D1D5E9C5-A31D-4FF4-9D41-BF49B3F572E4}.Release|x86.Build.0 = Release|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Debug|x64.Build.0 = Debug|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Debug|x86.Build.0 = Debug|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Release|x64.ActiveCfg = Release|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Release|x64.Build.0 = Release|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{5923A2E3-18E3-4D6A-B387-A3E9EACDA8FD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

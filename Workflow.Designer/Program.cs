@@ -4,6 +4,7 @@ using Workflow.Core.Engine;
 using Workflow.Core.Events;
 using Workflow.Core.Interfaces;
 using Workflow.Core.Persistence;
+using Workflow.Core.Scripting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -46,12 +47,20 @@ else
 
 // Register workflow services
 builder.Services.AddSingleton<IWorkflowEventPublisher, WorkflowEventPublisher>();
+
+// Register script executor factory
+builder.Services.AddSingleton<IScriptExecutorFactory, ScriptExecutorFactory>();
+
 builder.Services.AddSingleton<IActivityHandlerFactory>(sp =>
 {
     var factory = new ActivityHandlerFactory();
     factory.RegisterHandler(new HumanTaskHandler());
     factory.RegisterHandler(new ServiceTaskHandler(sp));
-    factory.RegisterHandler(new ScriptTaskHandler());
+
+    // Pass script executor factory to ScriptTaskHandler
+    var scriptExecutorFactory = sp.GetRequiredService<IScriptExecutorFactory>();
+    factory.RegisterHandler(new ScriptTaskHandler(scriptExecutorFactory));
+
     factory.RegisterHandler(new DecisionHandler());
     return factory;
 });

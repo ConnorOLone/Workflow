@@ -7,6 +7,7 @@ using Workflow.Core.Interfaces;
 using Workflow.Core.Models;
 using Workflow.Core.Persistence;
 using Workflow.Core.ActivityHandlers;
+using Workflow.Core.Scripting;
 
 namespace SampleTest001;
 
@@ -58,11 +59,12 @@ public class Program
 
         var eventPublisher = new WorkflowEventPublisher();
         var activityHandlerFactory = new ActivityHandlerFactory();
+        var scriptExecutorFactory = new ScriptExecutorFactory();
 
         // Register custom activity handlers
         activityHandlerFactory.RegisterHandler(new HumanTaskHandler());
         activityHandlerFactory.RegisterHandler(new ServiceTaskHandler(null!));
-        activityHandlerFactory.RegisterHandler(new ScriptTaskHandler());
+        activityHandlerFactory.RegisterHandler(new ScriptTaskHandler(scriptExecutorFactory));
         activityHandlerFactory.RegisterHandler(new DecisionHandler());
 
         // Register event handler for logging
