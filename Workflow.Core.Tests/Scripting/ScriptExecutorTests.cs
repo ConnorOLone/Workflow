@@ -196,13 +196,13 @@ public class ScriptExecutorTests
     {
         // Arrange
         var executor = new CSharpScriptExecutor();
-        var variables = new Dictionary<string, object?> { ["count"] = 5, ["doubled"] = 0 }; // only variables declared in here will be returned in script result
+        var variables = new Dictionary<string, object?> { ["count"] = 5, ["doubled"] = 0 }; // only variables declared by caller returned in Script Result.
 
         // Act
         var result = await executor.ExecuteAsync(@"
             var count = Get<int>(""count"");
-            Set(""doubled"", count * 2);        // Issue with doubled, test was expecting it to be a part of the modified variables collection (returned in script result) => test was wrong, only variable 
-            return count;                       // declared by caller will returned in modified variable dictionary
+            Set(""doubled"", count * 2);        
+            return count;                       
         ", variables);
 
         // Assert
