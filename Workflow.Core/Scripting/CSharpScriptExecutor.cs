@@ -13,6 +13,9 @@ public class CSharpScriptExecutor : IScriptExecutor
 
     // Cache compiled scripts for performance
     private static readonly Dictionary<string, Script<object>> _scriptCache = new();
+
+    // TODO: Potential to use the ReaderWriterLockSlim which may be better at handling cache access as there could be many more READS than WRITES.
+    // ... needs investigation
     private static readonly object _cacheLock = new();
 
     public async Task<ScriptResult> ExecuteAsync(string script, Dictionary<string, object?> variables, ScriptOptions? options = null)

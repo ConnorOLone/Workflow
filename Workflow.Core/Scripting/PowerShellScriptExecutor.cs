@@ -33,6 +33,7 @@ public class PowerShellScriptExecutor : IScriptExecutor
                 RemoveNetworkCmdlets(iss);
             }
 
+            // BUG003: dangerous cmdlets are not being denied
             // Remove dangerous cmdlets regardless of options
             RemoveDangerousCmdlets(iss);
 
