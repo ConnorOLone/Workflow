@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="/css/designer.css">
     <!-- Monaco Editor -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/editor/editor.main.css">
+    <style>
+        /* Prevent flash of unstyled content - apply theme before scripts load */
+        body.dark-mode {
+            background: #1a1a1a;
+        }
+    </style>
+    <script>
+        // Apply stored theme immediately to prevent flash
+        (function() {
+            const storedTheme = localStorage.getItem('workflow-theme');
+            const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = storedTheme || (systemPrefersDark ? 'dark' : 'light');
+
+            // Apply to documentElement first (for CSS to work before body loads)
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark-mode');
+            }
+
+            // Then apply to body when it's available
+            document.addEventListener('DOMContentLoaded', function() {
+                if (theme === 'dark') {
+                    document.body.classList.add('dark-mode');
+                }
+                // Remove from documentElement after applying to body
+                document.documentElement.classList.remove('dark-mode');
+            });
+        })();
+    </script>
 </head>
 <body>
     <div class="app-container">
@@ -14,6 +42,9 @@
         <header class="app-header">
             <h1>🔄 Workflow Designer</h1>
             <div class="header-actions">
+                <button id="themeToggleBtn" class="btn btn-theme" title="Toggle Dark/Light Mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
                 <button id="newWorkflowBtn" class="btn btn-primary">New Workflow</button>
                 <button id="saveWorkflowBtn" class="btn btn-success">Save</button>
                 <button id="loadWorkflowBtn" class="btn btn-secondary">Load</button>
@@ -129,6 +160,7 @@
         require.config({ paths: { vs: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs' } });
     </script>
 
+    <script src="/js/theme-manager.js"></script>
     <script src="/js/workflow-api.js"></script>
     <script src="/js/expression-builder.js"></script>
     <script src="/js/property-editors.js"></script>

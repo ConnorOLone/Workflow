@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Test</title>
+    <link rel="stylesheet" href="/css/designer.css">
+    <style>
+        /* Prevent flash of unstyled content - apply theme before scripts load */
+        body.dark-mode {
+            background: #1a1a1a;
+        }
+    </style>
+    <script>
+        // Apply stored theme immediately to prevent flash
+        (function() {
+            const storedTheme = localStorage.getItem('workflow-theme');
+            const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = storedTheme || (systemPrefersDark ? 'dark' : 'light');
+
+            // Apply to documentElement first (for CSS to work before body loads)
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark-mode');
+            }
+
+            // Then apply to body when it's available
+            document.addEventListener('DOMContentLoaded', function() {
+                if (theme === 'dark') {
+                    document.body.classList.add('dark-mode');
+                }
+                // Remove from documentElement after applying to body
+                document.documentElement.classList.remove('dark-mode');
+            });
+        })();
+    </script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>🔄 Theme Test Page</h1>
+            <div class="header-actions">
+                <button id="themeToggleBtn" class="btn btn-theme" title="Toggle Dark/Light Mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="app-body">
+            <aside class="toolbox">
+                <h3>Toolbox Test</h3>
+                <div class="activity-palette">
+                    <div class="activity-item">
+                        <span class="activity-icon">▶️</span>
+                        <span>Start</span>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">👤</span>
+                        <span>Human Task</span>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">⚙️</span>
+                        <span>Service Task</span>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="canvas-container">
+                <div style="padding: 2rem; color: var(--text-primary);">
+                    <h2>Theme Toggle Test</h2>
+                    <p>Current theme: <strong id="currentTheme">Loading...</strong></p>
+                    <p>Click the button in the header to toggle between light and dark modes.</p>
+                    <p>Keyboard shortcut: <kbd>Ctrl+Shift+T</kbd></p>
+
+                    <div class="zoom-controls">
+                        <button class="zoom-btn">−</button>
+                        <span class="zoom-level">100%</span>
+                        <button class="zoom-btn">+</button>
+                        <button class="zoom-btn">⊙</button>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="properties-panel">
+                <div class="properties-header">
+                    <h3>Properties</h3>
+                    <button class="close-properties-btn">×</button>
+                </div>
+                <div id="propertiesContent">
+                    <div class="form-group">
+                        <label>Test Input</label>
+                        <input type="text" placeholder="Type something...">
+                    </div>
+                    <div class="form-group">
+                        <label>Test Textarea</label>
+                        <textarea rows="4" placeholder="Type something..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Test Select</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script src="/js/theme-manager.js"></script>
+    <script>
+        // Update current theme display
+        function updateThemeDisplay() {
+            const themeEl = document.getElementById('currentTheme');
+            if (themeEl && window.themeManager) {
+                themeEl.textContent = window.themeManager.getTheme();
+            }
+        }
+
+        // Listen for theme changes
+        window.addEventListener('themechange', function(e) {
+            console.log('Theme changed to:', e.detail.theme);
+            updateThemeDisplay();
+        });
+
+        // Initial update
+        document.addEventListener('DOMContentLoaded', function() {
+            updateThemeDisplay();
+        });
+    </script>
+</body>
+</html>

@@ -34,39 +34,99 @@ class WorkflowCanvas {
         this.connectionMouseX = 0;
         this.connectionMouseY = 0;
 
+        // Theme support
+        this.currentTheme = 'light';
+        this.initializeTheme();
+
         this.setupCanvas();
         this.setupEventListeners();
         this.setupResizeObserver();
         this.draw();
     }
 
+    initializeTheme() {
+        // Check if theme manager is available
+        if (window.themeManager) {
+            this.currentTheme = window.themeManager.getTheme();
+        } else {
+            // Fallback: check body class
+            this.currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+        }
+
+        // Listen for theme changes
+        window.addEventListener('themechange', (e) => {
+            this.updateTheme(e.detail.theme);
+        });
+    }
+
+    updateTheme(theme) {
+        this.currentTheme = theme;
+        this.draw(); // Redraw canvas with new colors
+    }
+
+    getThemeColors() {
+        if (this.currentTheme === 'dark') {
+            return {
+                grid: '#3a3a3a',
+                activityStroke: '#e0e0e0',
+                activityStrokeHover: '#ffffff',
+                activityText: '#e0e0e0',
+                transitionLine: '#666666',
+                connectionHandle: '#4a9eff',
+                connectionHandleHover: '#60b0ff',
+                selectedStroke: '#4a9eff'
+            };
+        } else {
+            return {
+                grid: '#8a7777ff',
+                activityStroke: '#2c3e50',
+                activityStrokeHover: '#34495e',
+                activityText: '#2c3e50',
+                transitionLine: '#95a5a6',
+                connectionHandle: '#3498db',
+                connectionHandleHover: '#2ecc71',
+                selectedStroke: '#3498db'
+            };
+        }
+    }
+
     setupCanvas() {
-        // Set canvas size to match container
+        // Get container dimensions
         const rect = this.container.getBoundingClientRect();
-        this.canvas.width = rect.width;
-        this.canvas.height = rect.height;
+        const displayWidth = rect.width;
+        const displayHeight = rect.height;
 
         // Set up high DPI rendering
         const dpr = window.devicePixelRatio || 1;
-        const rect2 = this.canvas.getBoundingClientRect();
-        this.canvas.width = rect2.width * dpr;
-        this.canvas.height = rect2.height * dpr;
-        this.canvas.style.width = rect2.width + 'px';
-        this.canvas.style.height = rect2.height + 'px';
+
+        // Set the actual canvas size (accounting for device pixel ratio)
+        this.canvas.width = displayWidth * dpr;
+        this.canvas.height = displayHeight * dpr;
+
+        // Set the display size (CSS pixels)
+        this.canvas.style.width = displayWidth + 'px';
+        this.canvas.style.height = displayHeight + 'px';
+
+        // Scale the context to account for device pixel ratio
         this.ctx.scale(dpr, dpr);
 
         // Store display size
-        this.displayWidth = rect2.width;
-        this.displayHeight = rect2.height;
+        this.displayWidth = displayWidth;
+        this.displayHeight = displayHeight;
 
-        console.log(`Canvas element size: ${this.canvas.style.width} x ${this.canvas.style.height}`);
+        console.log(`Canvas resized to: ${displayWidth} x ${displayHeight} (display), ${this.canvas.width} x ${this.canvas.height} (actual)`);
         console.log(`Rendering context size: ${this.canvas.width} x ${this.canvas.height}`);
     }
 
     setupResizeObserver() {
+        let resizeTimeout;
         const resizeObserver = new ResizeObserver(() => {
-            this.setupCanvas();
-            this.draw();
+            // Debounce the resize to avoid excessive redraws
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                this.setupCanvas();
+                this.draw();
+            }, 16); // ~60fps
         });
         resizeObserver.observe(this.container);
     }
@@ -508,8 +568,9 @@ class WorkflowCanvas {
         const gridSize = 20 * this.zoom;
         const offsetX = this.panX % gridSize;
         const offsetY = this.panY % gridSize;
+        const colors = this.getThemeColors();
 
-        this.ctx.strokeStyle = '#e0e0e0';
+        this.ctx.strokeStyle = colors.grid;
         this.ctx.lineWidth = 0.5;
 
         for (let x = offsetX; x < this.displayWidth; x += gridSize) {
@@ -533,7 +594,7 @@ class WorkflowCanvas {
         const isHovered = activity === this.hoveredActivity;
 
         // Get color based on activity type
-        const colors = {
+        const activityColors = {
             'Start': '#2ecc71',
             'End': '#e74c3c',
             'HumanTask': '#3498db',
@@ -541,7 +602,7 @@ class WorkflowCanvas {
             'ScriptTask': '#e67e22',
             'Decision': '#f39c12'
         };
-        const color = colors[activity.type] || '#95a5a6';
+        const color = activityColors[activity.type] || '#95a5a6';
 
         // Draw shadow
         if (isHovered || isSelected) {
@@ -554,11 +615,12 @@ class WorkflowCanvas {
         this.ctx.fillRect(bounds.x, bounds.y, bounds.width, bounds.height);
 
         // Draw border
+        const themeColors = this.getThemeColors();
         if (isSelected) {
-            this.ctx.strokeStyle = '#2c3e50';
+            this.ctx.strokeStyle = themeColors.selectedStroke;
             this.ctx.lineWidth = 3 / this.zoom;
         } else {
-            this.ctx.strokeStyle = '#34495e';
+            this.ctx.strokeStyle = isHovered ? themeColors.activityStrokeHover : themeColors.activityStroke;
             this.ctx.lineWidth = 2 / this.zoom;
         }
         this.ctx.strokeRect(bounds.x, bounds.y, bounds.width, bounds.height);
@@ -599,7 +661,8 @@ class WorkflowCanvas {
             const endY = toBounds.y;
 
             // Draw line
-            this.ctx.strokeStyle = '#34495e';
+            const colors = this.getThemeColors();
+            this.ctx.strokeStyle = colors.transitionLine;
             this.ctx.lineWidth = 2 / this.zoom;
             this.ctx.beginPath();
             this.ctx.moveTo(startX, startY);
@@ -634,8 +697,10 @@ class WorkflowCanvas {
             this.ctx.save();
             this.ctx.setTransform(1, 0, 0, 1, 0, 0);
 
+            const colors = this.getThemeColors();
+
             // Outer circle
-            this.ctx.fillStyle = isHovered ? '#2ecc71' : '#3498db';
+            this.ctx.fillStyle = isHovered ? colors.connectionHandleHover : colors.connectionHandle;
             this.ctx.beginPath();
             this.ctx.arc(handle.screenX, handle.screenY, handle.radius + 2, 0, Math.PI * 2);
             this.ctx.fill();
@@ -647,7 +712,7 @@ class WorkflowCanvas {
             this.ctx.fill();
 
             // Border
-            this.ctx.strokeStyle = isHovered ? '#27ae60' : '#2980b9';
+            this.ctx.strokeStyle = isHovered ? colors.connectionHandleHover : colors.connectionHandle;
             this.ctx.lineWidth = 2;
             this.ctx.beginPath();
             this.ctx.arc(handle.screenX, handle.screenY, handle.radius + 2, 0, Math.PI * 2);
@@ -665,7 +730,8 @@ class WorkflowCanvas {
         this.ctx.save();
         this.ctx.setTransform(1, 0, 0, 1, 0, 0);
 
-        this.ctx.strokeStyle = '#3498db';
+        const colors = this.getThemeColors();
+        this.ctx.strokeStyle = colors.connectionHandle;
         this.ctx.lineWidth = 2;
         this.ctx.setLineDash([5, 5]);
         this.ctx.beginPath();
