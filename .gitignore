@@ -4,3 +4,4 @@
 **/obj/
 .vs/
 Workflow.Designer/Workflow.Designer.csproj.user
+docs
