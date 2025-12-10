@@ -50,12 +50,12 @@ public class ActivityInstance
     /// <summary>
     /// User assigned to this activity (for human tasks)
     /// </summary>
-    public string? AssignedTo { get; set; }
+    public Entity? AssignedTo { get; set; }
 
     /// <summary>
     /// Group/role assigned to this activity
     /// </summary>
-    public string? AssignedToGroup { get; set; }
+    public Entity? AssignedToGroup { get; set; }    // Need to create - Group.cs 
 
     /// <summary>
     /// Number of retry attempts

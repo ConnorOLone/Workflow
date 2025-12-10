@@ -15,15 +15,19 @@ public class HumanTaskHandler : IActivityHandler
         ActivityDefinition activityDefinition,
         WorkflowContext workflowContext)
     {
+        // How do i handle human's as objects in the system.
+        // Can use AD but this is Windows only
+        // Do not want to create separate users for workflow
         // Extract assignment information from configuration
+        // 
         if (activityDefinition.Configuration.TryGetValue("assignedTo", out var assignedTo))
         {
-            activityInstance.AssignedTo = assignedTo?.ToString();
+            activityInstance.AssignedTo = (User?)assignedTo;
         }
 
         if (activityDefinition.Configuration.TryGetValue("assignedToGroup", out var assignedToGroup))
         {
-            activityInstance.AssignedToGroup = assignedToGroup?.ToString();
+            activityInstance.AssignedToGroup = (User?)assignedToGroup;
         }
 
         // Human tasks require external completion

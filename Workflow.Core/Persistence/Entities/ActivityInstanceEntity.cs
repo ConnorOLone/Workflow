@@ -14,8 +14,8 @@ public class ActivityInstanceEntity
     public DateTime CreatedAt { get; set; }
     public DateTime? StartedAt { get; set; }
     public DateTime? CompletedAt { get; set; }
-    public string? AssignedTo { get; set; }
-    public string? AssignedToGroup { get; set; }
+    public Entity? AssignedTo { get; set; }
+    public Entity? AssignedToGroup { get; set; }
     public int RetryCount { get; set; }
     public string? ErrorMessage { get; set; }
     public string? ErrorStackTrace { get; set; }
