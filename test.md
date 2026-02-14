@@ -11,7 +11,7 @@ This is a test markdown file created for demonstration purposes.
 ## Code Example
 
 ```csharp
-public class TestClass
+public class ExampleClass
 {
     public void TestMethod()
     {
